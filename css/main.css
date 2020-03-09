@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Aria , Helvetica, Helvetica Neue, sans-serif';
+  font-size: 1rem;
+  margin: 8% 20%;
+    background-color: lightblue;
+}
+
+legend {
+  font-size: 2rem;
+  box-sizing: border-box;
+  background-color:#fff;
+  padding: 1rem;
+  border: 2px solid #DDD;
+}
+
+fieldset {
+  background-color: #F5F5F5;
+  border: 3px solid #DDD;
+}
+
+.buttoninput {
+  font-size: 1rem;
+  background-color: #6495ED;
+  color: #fff;
+  width:20%;
+    border-radius: 6px;
+}
+
+  input {
+    margin: 5px 0px;
+    height: 46px;
+    width: 100%;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+  }
+
+  textarea {
+    height: 60px;
+    width:100%;
+    margin: 5px 0 5px 0px;
+    border: 2px solid #DDD;
+    border-radius: 6px;
+  }
+  .fname {
+    width: 49%;
+    float: left;
+    border-radius: 10px;
+  }
+
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+
+@media screen and (min-width: 40rem) and (max-width: 50rem){
+  input {
+    margin: 5px 0 5px 0px;
+    height: 40px;
+    border: 2px solid #DDD;
+  }
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 5px 0 5px 0px;
+    border: 2px solid #DDD;
+  }
+  .fname {
+    width: 49%;
+    float: left;
+  }
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+}
+@media screen and (min-width:25rem) and (max-width: 40rem) {
+  body{
+    width:90%;
+    margin: 2% 5%;
+  }  
+  input {
+    margin: 7px 0 7px 0px;
+    border: 2px solid #DDD;
+  }
+  textarea {
+    height: 80px;
+    width:100%;
+    margin: 7px 0 7px 0px;
+    border: 2px solid #DDD;
+  }
+  .fname {
+    width: 49%;
+    float: left;
+  }
+  .email{
+    margin-left: 2%;
+    width: 49%;
+    float: right;
+  }
+}
+
+@media screen and (min-width:10rem) and (max-width:25rem) {
+  body{
+    margin: 2% 10%;
+  }  
+  input {
+    margin: 5px 0px 5px 0px; 
+    border: 2px solid #DDD;
+  }
+  textarea 
+        {
+        width:100%;
+        margin: 5px 0px 5px 0px;
+        border: 2px solid #DDD;
+       }
+  .fname {
+    width: 100%;
+  }
+  .email{
+    width: 100%;
+  }
+  .buttoninput {
+    width:100%;
+  }
+}
